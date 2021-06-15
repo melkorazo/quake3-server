@@ -1,0 +1,21 @@
+# crontab - time-based job scheduling
+#
+# Format: minute hour day month dayofweek	/command
+
+# examples
+#* * * * *		\say this is executed every minute!
+#* * * * 1		\say this is executed every minute but only on mondays!
+#*/5 * * * *	\say this is executed every 5 minutes!
+#0 15 5 2 *		\say this is executed on the 5th February at 15:00 o'clock!
+# change config at midnight
+#0 0 * * *	\exec your-midnight-fun.cfg
+#* * * * *	\say ^5this is executed every minute!
+
+*/26 * * * *	\say "  ^2* Activa las descargas para jugar ^6nuevos mapas      "
+*/26 * * * *	\say "  ^2* ^3Baja la consola con la ^1tecla debajo del ESC      "
+*/26 * * * *	\say "  ^2* ^7Borra los dos puntos y escribe^1: ^6/cl_allowDownload 1      "
+
+*/21 * * * *	\cp "  ^2* ^7Mejora tu ^6PING ^7con un simple comando^1: ^3/cl_maxpackets 125      "
+
+*/15 * * * *	\say "  ^2* Prueba otro modo de juego^1. ^7En consola^1: ^3/callvote ^6load instakill      "
+*/15 * * * *	\say "  ^2* ^7Para volver al modo normal^1: ^3/callvote ^5load normal      "

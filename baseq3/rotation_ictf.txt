@@ -1,0 +1,24 @@
+/* 
+	Map rotation system
+	
+	Syntax:
+
+	$cvar1 = value1; // set cvar1 for each rotation step (i.e global)
+	{...}
+	"mapname1" // first map in rotation
+	"mapname2" // second map in rotation
+	{ 
+		$cvar2 = value2; 
+		{...}
+	}
+	"mapname3" // third map in rotation
+	{...}
+
+	Note: its better to quote map names like "6++" which contains "+","-","&" etc. symbols
+
+	Example of contents:
+*/
+q3ctf1
+q3tourney6_ctf
+q3ctf4
+q3ctf2

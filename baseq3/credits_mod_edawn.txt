@@ -1,0 +1,44 @@
+Management:
+
+	foksieloy
+
+Programming:
+
+	Cyrax
+	Kyto
+
+Resources:
+
+	ExcessivePlus team - codebase (v1.04b2), media 
+		http://excessiveplus.net
+
+	CPMA team - media, hints
+		http://promode.org
+		http://promode.ru
+
+	Dan Schoenblum - Excessive Overkill
+		http://excessiveoverkill.com
+
+	Neil Toronto - Unlagged
+		http://ra.is/unlagged
+
+	Quake 3 Coding tutorials
+		http://www.quake3hut.co.uk/q3coding
+
+	IP to Country Database
+		http://software77.net/geo-ip
+
+	Q3F Team - media
+		http://www.q3f.com [dead]
+
+	Q3HQ project - media
+
+	Darrell Bircsak - Freeze Tag
+
+	Dragory - hi-resolution icons
+
+	Paul Jordan - ZCam
+
+	Xavier Lardy - Protect the Leader Design
+		
+	All unmentioned resources belong to their respective owners

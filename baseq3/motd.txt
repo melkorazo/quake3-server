@@ -1,0 +1,7 @@
+^7Bienvenido a ^1QUAKE 3 Arena
+
+^2Mejora tu ^1PING^2!^7, abre la consola y escribe^1:
+    ^3/cl_maxpackets 125
+
+^2Activa la descarga de mapas^1:
+    ^3/cl_allowDownload 1

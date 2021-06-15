@@ -1,0 +1,37 @@
+$cl_maxpackets < 100
+{
+	Info "^2Mejora tu conexion^7, escribe en consola ^3/cl_maxpackets 125 " 
+}
+
+$snaps < 60
+{ 
+	Info "\n^1Configura tu conexion^7, escribe en consola ^3/snaps 125 " 
+}
+
+$rate < 25000
+{ 
+	Info "\n^1Configura tu conexion^7, escribe en consola ^3/rate 25000 " 
+}
+
+$cl_allowdownload < 1
+{
+	Info "\n^2Activar descarga de nuevos mapas^7, con ^3/cl_allowDownload 1                                                  \n" 
+}
+
+Name ~ "Unnamed*"
+{ 
+	Info "\n^5Cambia tu nombre^1,^5 escribe ^3/name ^7Tu Nick ^5asi podran conocerte^1. \n" 
+}
+
+#CName ~ "*^0*" 
+#{
+#	Warn 40 "Black color is not allowed in tags on this server" 
+#}
+
+#IP "127.0.0.1" 
+#{
+#	Date "2018-06-01_00-00" // default operator for date is '<' (less)
+#	{ 
+#		Drop "Wait for summer dude :)" 
+#	}
+#}

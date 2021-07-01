@@ -6,6 +6,13 @@ Se obtienen de la instalación oficial de Quake 3 Arena.
 
 ## Comando para servidor InstaCTF:
 ./start.sh +exec zone_instactf.cfg +set net_Port 27970
+./start.sh +exec zone_instactf_2.cfg +set net_Port 27962
 
 ## Comando para servidor FFA:
 ./start.sh +exec zone_ffa.cfg +set net_Port 27960
+
+## Comando para servidor Freeze:
+./start.sh +exec zone_freeze.cfg +set net_Port 27964
+
+## Comando para servidor Duelo:
+./start.sh +exec zone_duel.cfg +set net_Port 27966

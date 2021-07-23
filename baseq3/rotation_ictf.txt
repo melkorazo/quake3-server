@@ -19,6 +19,9 @@
 	Example of contents:
 */
 q3ctf1
-q3tourney6_ctf
+q3wxs1
+q3wxs2
+q3w2
+q3wcp9
+q3wcp17
 q3ctf4
-q3ctf2

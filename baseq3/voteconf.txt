@@ -1,0 +1,13 @@
+/* Add rulesets you want to be voted.
+
+ *
+ * \callvote ruleset <filename>
+ *
+
+ Format: filename  description
+
+*/
+
+normal
+instagib
+instakill

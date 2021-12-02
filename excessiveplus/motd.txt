@@ -1,0 +1,8 @@
+^o^6^0Bienvenid@
+
+^i^0^3Ahora jugando ^1$(gametype)
+^i^0^3Tiempo en linea ^5$(uptime) horas    
+^i^0^3Mapa ^6$(mapname)
+
+^F^i^0^1$(name) ^i^0^5que te diviertas^7!
+

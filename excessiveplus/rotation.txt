@@ -1,0 +1,134 @@
+/* Excessive Plus for Quake III Arena
+ *      www.excessiveplus.net
+ **/
+
+
+// these will be executed before each map
+$timelimit = 20;
+$roundlimit = 0;
+$fraglimit = 0;
+$g_gametype = GT_CTF; // GT_FFA - GT_CTF
+
+$xp_config = "instagib";
+
+pbox1 {
+	$g_gametype = GT_CTF;
+	$timelimit = 15;
+	$fraglimit = 0;
+	$roundlimit = 0;
+	$capturelimit = 6;
+	$bot_minplayers = 3;
+
+	$xp_config = "instagib";
+}
+
+if ( activeClients() >= 4 ) {
+	q3wcp9 {
+		$g_gametype = GT_CTF;
+		$timelimit = 15;
+		$fraglimit = 0;
+		$roundlimit = 0;
+		$capturelimit = 6;
+		$bot_minplayers = 3;
+
+		$xp_config = "normal";
+	}
+}
+
+q3ctf1 {
+	$g_gametype = GT_CTF;
+	$timelimit = 20;
+	$fraglimit = 0;
+	$roundlimit = 0;
+	$capturelimit = 8;
+	$bot_minplayers = 0;
+
+	$xp_config = "instagib";
+}
+
+// this will be FFA! remember the "$g_gametype = GT_FFA"
+
+if ( activeClients() >= 4 ) {
+	q3ctf4 {
+		$g_gametype = GT_CTF;
+		$timelimit = 10;
+		$fraglimit = 0;
+		$roundlimit = 0;
+		$capturelimit = 4;
+		$bot_minplayers = 4;
+
+		$xp_config = "normal";
+	}
+}
+
+if ( activeClients() >= 2 ) {
+	q3wcp17 {
+		$g_gametype = GT_CTF;
+		$timelimit = 15;
+		$fraglimit = 0;
+		$roundlimit = 0;
+		$capturelimit = 6;
+		$bot_minplayers = 4;
+
+		$xp_config = "normal";
+	}
+}
+
+q3wxs1 {
+	$g_gametype = GT_CTF;
+	$timelimit = 15;
+	$fraglimit = 0;
+	$roundlimit = 0;
+	$capturelimit = 6;
+	$bot_minplayers = 3;
+
+	$xp_config = "instagib";
+}
+
+q3wxs2 {
+	$g_gametype = GT_CTF;
+	$timelimit = 15;
+	$fraglimit = 0;
+	$roundlimit = 0;
+	$capturelimit = 6;
+	$bot_minplayers = 3;
+
+	$xp_config = "instagib";
+}
+
+q3mdctf1 {
+	$g_gametype = GT_CTF;
+	$timelimit = 15;
+	$fraglimit = 0;
+	$roundlimit = 0;
+	$capturelimit = 6;
+	$bot_minplayers = 3;
+
+	$xp_config = "normal";
+}
+
+
+
+// we can have individual conditions
+//if ( activeClients() >= 8 ) {
+//	q3dm12 {
+//		$timelimit = 10;
+//	}
+//}
+
+// we can access weapon configuration values
+// but they are read-only
+//if ( Machinegun->Damage >= 100 ) {
+//	// this is a valid mapname
+//	q3dm17++
+//}
+
+// we can include other files
+//include("rotation2.txt");
+
+
+// note, if the mapname conflicts with the syntax (e.g. mapname 'break' will conflict
+// with the 'break' keyword), you have to wrap them into quotes
+//"break" {
+//	$fraglimit = 10;
+//}
